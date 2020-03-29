@@ -1,0 +1,22 @@
+{
+  "name": "elm-covid-19",
+  "version": "1.0.0",
+  "description": "Tracking COVID-19 cases using Elm.",
+  "main": "index.js",
+  "author": {
+    "email": "ryan@ponce.la",
+    "name": "Ryan Ponce",
+    "url": "https://ponce.la"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "elm-hot": "^1.1.4",
+    "node-elm-compiler": "^5.0.4",
+    "parcel-bundler": "^1.12.4"
+  }
+}
